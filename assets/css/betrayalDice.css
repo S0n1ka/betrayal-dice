@@ -1,0 +1,61 @@
+/* * {
+	margin:10 auto auto auto;
+} */
+
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.show-die {
+    text-align: center;
+    padding: 15px;
+}
+
+.dice{
+    background: #F5F5F5;
+    border: #999 2px solid;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+
+.oppDice{
+    background:#FF4242;
+}
+
+.buttons {
+	text-align:center;
+}
+
+.buttons > button {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.buttons > button:hover {
+    cursor: pointer;
+    background-color: rgb(4, 155, 62);
+    color: white;
+}
+
+.dice-input {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.dice-input > span {
+    margin: 5px;
+}
+
+.status {
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+

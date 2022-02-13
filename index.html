@@ -2,23 +2,38 @@
 <html>
 <head>
 	<title>Betrayal Dice</title>
-	<link rel="stylesheet" href="css/betrayalDice.css">
+	<link rel="stylesheet" href="./assets/css/betrayalDice.css">
 </head>
 <body >
-	<div class="diceInput">
-        <input type="number" id="playerDice" min="0" max="8" value="" class="input"> : Your Dice</input>
-		<input type="number" id="oppDice" min="0" max="8" value="" class="input" style="margin-left:30px;" > : Opponent's Dice</input>
-    </div>    
-	<br>
+	<div class="dice-input">
+        <span>
+			<input
+				type="number"
+				id="playerDice"
+				min="0"
+				max="8"
+				value=""
+				class="input"
+			/> : Your Dice
+		</span>
+		<span>
+			Opponent's Dice :&nbsp;
+			<input
+				type="number"
+				id="oppDice"
+				min="0"
+				max="8"
+				value=""
+				class="input"
+			/>
+		</span>
+    </div>
 	<div class="buttons">
-		<button class="button" onclick="rollDice()" style="margin:3px;">Roll Dice</button>
-		<br>
-		<br>
-		<button class="button" onclick="refresh()">Clear Dice</button>
+		<button onclick="rollDice()" style="margin:3px;">Roll Dice</button>
+		<button onclick="refresh()">Clear Dice</button>
 	</div>
-	<br>
-	<div id="showDie"></div>
-	<h2 id="status" style="clear:left;; font-size:35px"></h2>
+	<div id="showDie" class="show-die"></div>
+	<h1 id="status" class="status"></h1>
+	<script src="./assets/js/betrayalDice.js"></script>
 </body>
-<script src="js/betrayalDice.js"></script>
 </html>
