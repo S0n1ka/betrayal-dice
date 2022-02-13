@@ -1,0 +1,48 @@
+* {
+	margin:10 auto auto auto;
+}
+
+
+
+.dice{
+	float:left;
+    width:32px;
+    background:#F5F5F5;
+    border:#999 2px solid;
+    border-radius:10px;
+    padding:10px;
+    font-size:24px;
+    text-align:center;
+    margin:5px;
+}
+		
+.oppDice{
+	float:left;
+    width:32px;
+    background:#FF4242;
+    border:#999 2px solid;
+    border-radius:10px;
+    padding:10px;
+    font-size:24px;
+    text-align:center;
+    margin:5px;
+}
+	
+.buttons {
+	text-align:center;
+}
+		
+.button{
+	position:absolute;
+}
+		
+.diceInput {
+	text-align:center;
+	
+}
+		
+.input {
+	display:inline-block;
+	margin:30;
+}
+
